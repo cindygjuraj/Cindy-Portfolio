@@ -32,3 +32,17 @@ h2 {
   text-transform: capitalize;
   color: black;
 }
+
+p {
+    float: right;
+    writing-mode: vertical-rl ;
+    text-orientation: mixed;
+}
+
+.side-link {
+  padding: 10px 0px;
+  font-size: 19px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgba(52, 51, 51, 0.676);
+}
