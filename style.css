@@ -1,7 +1,6 @@
 body {
-    background-image:  
-        url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/037/415/original/backgroundupdate.png?1655354209");
-    background-size: 1650px;
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/037/532/original/backgroundupdate.png?1655414312");
+    background-size: 1645px;
     font-family: 'Dosis', sans-serif;
     text-align: center;
 }
@@ -35,6 +34,7 @@ p {
     float: right;
     writing-mode: vertical-rl ;
     text-orientation: mixed;
+
 }
 
 .side-link {
@@ -44,4 +44,31 @@ p {
   text-transform: capitalize;
   font-weight: bold;
   color: rgba(52, 51, 51, 0.758);
+}
+
+.me-pic {
+    border-radius: 30px;
+    
+}
+
+.about-me {
+    margin: 20px 75px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+  .desktop-img {
+    display: none;
+  }
 }
