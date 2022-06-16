@@ -1,9 +1,12 @@
 body {
+    background-image:  
+        url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/037/415/original/backgroundupdate.png?1655354209");
+    background-size: 1640px;
     font-family: 'Dosis', sans-serif;
     text-align: center;
 }
 
-.name {
+.handwriting {
     margin: 45px 0px 15px 0px;
 }
 
@@ -44,7 +47,8 @@ p {
   font-size: 19px;
   text-decoration: none;
   text-transform: capitalize;
-  color: rgba(52, 51, 51, 0.676);
+  font-weight: bold;
+  color: rgba(52, 51, 51, 0.758);
 }
 
 .garou-img {
